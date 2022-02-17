@@ -1,0 +1,16 @@
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px 5px gray;
+  height: max-content;
+  width: max-content;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 185, 185);
+}
