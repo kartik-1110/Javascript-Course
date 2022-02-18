@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+button {
+  background-color: rgb(69, 138, 0);
+  border-color: transparent;
+  height: 40px;
+  color: white;
+  font-weight: 800;
+  margin-top: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(31, 63, 0);
+}
+
+input {
+  height: 25px;
+  width: 100%;
+  padding: 20px;
+}
