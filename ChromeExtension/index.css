@@ -7,7 +7,7 @@ body {
   justify-content: space-around;
 }
 
-button {
+#input-btn {
   background-color: rgb(69, 138, 0);
   border-color: transparent;
   height: 40px;
@@ -17,12 +17,51 @@ button {
   border-radius: 10px;
   cursor: pointer;
 }
-button:hover {
+#input-btn:hover {
   background-color: rgb(31, 63, 0);
+}
+#tab-btn {
+  background-color: rgb(69, 138, 0);
+  border-color: transparent;
+  height: 40px;
+  color: white;
+  font-weight: 800;
+  margin-top: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#tab-btn:hover {
+  background-color: rgb(31, 63, 0);
+}
+#delete-btn {
+  background-color: white;
+  height: 40px;
+  color: rgb(216, 73, 73);
+  font-weight: 800;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: solid 2px rgb(216, 73, 73);
+  cursor: pointer;
+}
+#delete-btn:hover {
+  background-color: rgb(216, 73, 73);
+  color: white;
 }
 
 input {
   height: 25px;
   width: 100%;
   padding: 20px;
+  border-color: rgb(69, 138, 0);
+  border-radius: 10px;
+}
+ul {
+  list-style: none;
+  padding-left: 0%;
+}
+li {
+  color: rgb(69, 138, 0);
+}
+li a {
+  color: rgb(69, 138, 0);
 }
